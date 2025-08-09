@@ -88,7 +88,8 @@ div.iframe {
     margin: auto;
     padding: 20px;
     text-align: center;
-    width: 790px;
+    max-width: 790px;
+    min-width: 300px;
 }
 
 footer {
