@@ -26,6 +26,8 @@ header{
     border: 1px solid black;
     box-shadow: 3px 3px 3px gray;
     margin: 10px;
+    max-width: 100%;
+    min-width: 300px;
 }
 
 header h1 {
@@ -64,8 +66,9 @@ main {
     background-color: white;
     border: 1px solid black;
     margin: auto;
+    max-width: 800px;
+    min-width: 300px;
     padding: 15px;
-    width: 800px;
 }
 
 main h2 {
