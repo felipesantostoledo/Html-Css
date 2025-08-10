@@ -90,12 +90,11 @@ div.iframe {
     text-align: center;
     max-width: 790px;
     min-width: 300px;
-    min-height: 350px;
 }
 
 div.iframe > iframe {
     width: 90%;
-    height: 350px;
+    height: 300px;
 }
 
 footer {
