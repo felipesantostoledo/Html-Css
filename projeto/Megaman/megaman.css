@@ -22,7 +22,7 @@ body {
 }
 
 header{
-    background-image: linear-gradient(to right, rgb(145, 227, 255), rgb(100, 100, 247));
+    color: rgb(100, 100, 247);
     border: 1px solid black;
     box-shadow: 3px 3px 3px gray;
     margin: 10px;
