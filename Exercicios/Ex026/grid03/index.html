@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexible Box</title>
+    <title>medidas e repeat</title>
+
     <style>
-        .conteiner {
-            background-color: lightsalmon;
+        #caixa {
+            border: 3px solid black;
             height: 300px;
-            display: flex;
-            flex-flow: row nowrap;
-            align-items: center;
+            display: grid;
+            gap: 5px;
+            grid-template-columns: auto auto auto;
+            grid-auto-rows: 50px;
         }
 
+        
         .item {
-            background-color: lightskyblue;
             border: 1px solid black;
-            text-align: center;
-            flex: auto;
+            
         }
     </style>
+
 </head>
 <body>
-    <div class="conteiner">
+    <div id="caixa">
         <div class="item">A</div>
         <div class="item">B</div>
         <div class="item">C</div>
         <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-        <div class="item">G</div>
-    </div>    
+    </div>
 </body>
 </html>
